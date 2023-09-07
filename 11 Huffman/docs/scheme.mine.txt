@@ -1,0 +1,11 @@
+
+Health organizations around the world have voiced concern over growing antibiotic resistance due to their misuse in both humans and animals, citing it as one of today's biggest threats to global health. Without any alternative sources of resistance, the number of severe, often-fatal infections the world faces, as well as mortality rates, will skyrocket as antibiotics continue to become less effective. One possible solution to this growing problem is the creation and utilization of new drug templates in the place of our current antibiotics. Naturally-occurring antimicrobial peptides or AMPs are one promising candidate able to serve as new templates, and as a result numerous laboratories have attempted to identify new AMPs with varying degrees of success.  
+
+ The experiment explores the use of a deep neural network to identify these antimicrobial peptide sequences, and a series of methods to create and analyze the peptide chains.
+
+The experiment uses a Deep Neural Network model to associate a score representing the probability of antimicrobial qualities to each peptide sequence.
+
+The Deep Neural Network model used in the experiment evaluates each peptide sequence by associating it with a score that represents the peptide's probability of having antimicrobial qualities. 
+
+The first possible method the model uses is a randomized global search, in which each peptide sequence is sampled at random. First, a random length for the peptide sequence is selected from a specified range of values. Next, each position in the peptide sequence is sampled uniformly over each of the known amino acid identities randomly. 
+ 
